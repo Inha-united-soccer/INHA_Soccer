@@ -1,4 +1,9 @@
-# INHA-Soccer ⚽️
+# INHA-Soccer 
+<p align="center">
+<img src="https://raw.githubusercontent.com/Inha-united-soccer/.github/main/profile/assets/inha_logo.png"
+     width="100" />
+</p>
+
 Hi 👋 We are Inha-United !
 Inha-United is a team competing in the RoboCup Soccer Humanoid League.
 
@@ -30,7 +35,7 @@ The system receives game control data transmitted via the UDP protocol from the 
 ## Interface 💬
 The Interface directory defines the ROS message types and communication interfaces used for interactions between modules such as Vision, Brain, and Control.
 
-## Installation & Run
+## Installation & Run ⚽️
 Prerequisites
 * Ubuntu 22.04
 * ROS 2 Humble
