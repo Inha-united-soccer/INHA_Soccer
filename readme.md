@@ -1,7 +1,7 @@
 # INHA-Soccer 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Inha-united-soccer/.github/main/profile/assets/inha_logo.png"
-     width="100" />
+<img src="https://raw.githubusercontent.com/Inha-united-soccer/.github/main/profile/assets/inha_logo.jpeg"
+     width="" />
 </p>
 
 Hi 👋 We are Inha-United !
