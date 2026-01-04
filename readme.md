@@ -1,7 +1,7 @@
 # INHA-Soccer 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Inha-united-soccer/.github/main/profile/assets/inha_logo.jpeg"
-     width="" />
+     width="400" height="" />
 </p>
 
 Hi 👋 We are Inha-United !
@@ -16,6 +16,9 @@ Starting from the demo provided by Booster Robotics, we have modularized the sys
 The vision pipeline of this system is based on a YOLOv8 object detection model and performs high-speed inference through TensorRT optimization.
 For the detected ball, line markers, and robot objects, the system applies a camera model and geometric transformations to convert the detection results into positions in the robot coordinate frame.
 
+[More on Vision](https://github.com/Inha-united-soccer/INHA_Vision)
+
+
 ## brain 🧠
 
 The Brain module consists of the following three core functionalities.
@@ -23,8 +26,18 @@ The Brain module consists of the following three core functionalities.
 ### 1. Behavior
 Based on a BehaviorTree framework, various behaviors required to perform a soccer game are implemented in a modular manner. These behaviors are composed to form a pipeline that controls the overall game flow.
 
+[More on Striker](https://github.com/Inha-united-soccer/INHA_Striker)
+
+[More on Defender](https://github.com/Inha-united-soccer/INHA_Defender)
+
+[More on GoalKeeper](https://github.com/Inha-united-soccer/INHA_GoalKeeper)
+
+
 ###	2. Localization
 Localization algorithms are implemented to estimate the robot’s position and orientation on the field, using information provided by the Vision module.
+
+[More on Localization](https://github.com/Inha-united-soccer/INHA_Localization)
+
 
 ###	3. Communication
 The module processes information exchanged between team robots as well as game state data from the Game Controller, and integrates this information with the Behavior module to enable advanced team strategies and decision-making.
